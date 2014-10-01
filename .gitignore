@@ -2,4 +2,5 @@
 #bin
 
 #files ignored
-#.DS_Store
+.DS_Store
+*.class
