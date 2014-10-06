@@ -9,7 +9,7 @@ class TreeNode{
 		this.val = val;
 	}
 }
-public class SameTree {
+public class SameTree_ {
 	public boolean isSameTree(TreeNode p,TreeNode q)
 	{
 		if(p == null && q == null)
