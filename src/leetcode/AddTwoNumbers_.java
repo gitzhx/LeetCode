@@ -10,7 +10,7 @@ package leetcode;
 //	}
 //}
 
-public class AddTwoNumbers {
+public class AddTwoNumbers_ {
 	public ListNode addTwoNumbers(ListNode l1,ListNode l2)
 	{
 		ListNode result = new ListNode(-1);
@@ -54,7 +54,7 @@ public class AddTwoNumbers {
 		n12.next = n13;
 		n21.next = n22;
 		n22.next = n23;
-		ListNode result = new AddTwoNumbers().addTwoNumbers(n11, n21);
+		ListNode result = new AddTwoNumbers_().addTwoNumbers(n11, n21);
 		while(result != null)
 		{
 			System.out.println(result.val);
